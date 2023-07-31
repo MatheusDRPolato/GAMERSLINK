@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+    <title>LOGIN</title>
+    <link rel="icon" href="/imagens/OIG.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/login.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+<body>
+    <div id="Login_Div">
+        <div id="Login_Pagina">
+            <div id="head_login">            
+                <h1 id="titulo">Gamers Link</h1>
+            </div>
+            
+            <div id="Login_Form">
+                <img src="/imagens/iconegamer.png" id="Icone" alt="Ícone Gamer">
+                <form>
+                    <div id="Dados">
+                        <label for="login" class="txt_usuario">Digite seu email:</label>        
+                        <input type="text" name="Usuario" placeholder="Usuário" id="login" required>
+                        <label for="senha" class="txt_usuario">Digite sua senha:</label>              
+                        <input type="password" name="Senha" placeholder="Senha" id="senha" required>
+                    </div>
+                    <div id="botoes">
+                        <button class="botao" type="button" value="Entrar" onclick="Entrar()">Entrar</button>
+                        <button class="botao" type="button" value="CriarConta" onclick="Criar_Conta()">Crie sua Conta</button>   
+                        <a href="Trocar_senha.html" id="EMS">Esqueci Minha Senha</a>
+                    </div>         
+                </form>
+            </div>
+            <div id="LinkSocial">
+                <a href="https://www.facebook.com/mpolatoo/" target="_blank">
+                    <img src="/imagens/facebook.png" class="Iconesocial" alt="Facebook">
+                </a>
+                <a href="https://www.instagram.com/margotrobbieofficial/" target="_blank">
+                    <img src="/imagens/instagram.png" class="Iconesocial" alt="Instagram">
+                </a>
+            </div>
+        </div>
+
+        <div id="Imagem_Login">
+            <img src="/imagens/ICONE.PNG" alt="Imagem de login">
+        </div>
+    </div>
+    <h1 id="Direitos">© Direitos Reservados a GAMERSLINK ©</h1>
+
+    <!-- Scripts -->
+    <script src="/js/login.js"></script>
+</body>
+</html>
