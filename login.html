@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Permissions-Policy" content="interest-cohort=()"/>
+    <title>Login</title>
+    <link rel="icon" href="/imagens/OIG.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/CSS_login.css" type="text/css">
+
+</head>
+<body>
+
+  <div id="Caixa_Login">
+    <div id="head_login">
+        <h2>Gamers Link</h2>
+        <img src="imagens/iconegamer.png" id="icone">
+    </div>
+
+    <form id="formulario" action="/login" method="post">
+      <label for="username">Usuário:</label>
+      <input type="text" id="login" name="usuario" placeholder="Usuário" required>
+
+      <label for="password">Senha:</label>
+      <input type="password" id="senha" name="senha" placeholder="Senha" required>
+
+      <button type="button" value="Entrar" onclick="Entrar()">Entrar</button>
+    </form>
+
+    <p>Não tem uma conta? <a href="Cadastrar.html">Cadastre-se</a></p>
+    <div id="redesocial">
+        <a href="https://www.instagram.com"><img class="rs" src="imagens/instagram.png"></a>
+        <a href="https://www.facebook.com/mpolatoo"><img class="rs" src="imagens/facebook.png"></a>
+    </div>
+
+  </div>
+  <script src="/js/login.js"></script>
+</body>
+</html>
